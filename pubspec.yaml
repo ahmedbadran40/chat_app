@@ -8,18 +8,19 @@ environment:
   sdk: ^3.8.1
 
 dependencies:
+  cloud_firestore: ^5.6.11
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.6.2
+  firebase_core: ^3.15.1
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  firebase_core: ^3.15.1
-  firebase_auth: ^5.6.2
+  flutter_bloc: ^9.1.1
   modal_progress_hud_nsn: ^0.5.1
-  cloud_firestore: ^5.6.11
 
 dev_dependencies:
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
